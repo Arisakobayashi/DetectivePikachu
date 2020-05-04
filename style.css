@@ -84,7 +84,7 @@ header nav a:hover{
      background-color: red;
      border-radius: 5px;
      padding: 5px;
-     margin-bottom: 5px;
+     margin-bottom: 50px;
      display: flex;
      justify-content: space-between;
  }
@@ -93,9 +93,12 @@ header nav a:hover{
      font-weight: bold;
      text-decoration: none;
  }
- .sectionTwo .rightside .info .button a span{
+ .sectionTwo .rightside .info .button span{
      color: white;
      font-weight: bold;
+    
  }
-
+.sectionTwo div .section-content .rightside .info .content-link a{
+    color: red;
+}
  
