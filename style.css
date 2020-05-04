@@ -42,30 +42,60 @@ header nav a:hover{
     color: red;
     margin-right: 10px;
 }
-.sectionTwo button {
-    background-color: red;
-    color: white;
-    height: 50px;
-}
-.sectionTwo div a{
-    font-weight: bold;
-    color: red;
-    margin-right: 10px;
-}
+
 .sectionTwo{
-    width: 60%;
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px 0;
 }
 .sectionTwo div .section-content{
-    width: 100%;
     display: flex;
     justify-content: space-between;
+    margin-top: 3em;
+    margin-bottom: 2em;
+    padding-bottom: 2em;
 
 }
-.sectionTwo div{
+
+ .sectionTwo div .section-content .leftside h3{
+     border-bottom: #ce181e solid .111em;
+     display: inline-block;
+ }
+
+.sectionTwo div .section-content .rightside{
     display: flex;
-    justify-content: center;
-    width: 60%;
 
 }
+
+
+
+ .sectionTwo .section-content .rightside div h3{
+     margin-right: 1em;
+     font-size: 1.78rem;
+     line-height: 1.25;
+     font-weight: 700;
+     color: #484848;
+ }
+ .sectionTwo div .section-content .leftside .content-link a{
+     color: red;
+ }
+ .sectionTwo .rightside .info .button{
+     border: solid 1px red;
+     background-color: red;
+     border-radius: 5px;
+     padding: 5px;
+     margin-bottom: 5px;
+     display: flex;
+     justify-content: space-between;
+ }
+ .sectionTwo .rightside .info .button a{
+     color: white;
+     font-weight: bold;
+     text-decoration: none;
+ }
+ .sectionTwo .rightside .info .button a span{
+     color: white;
+     font-weight: bold;
+ }
 
  
