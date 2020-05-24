@@ -101,4 +101,6 @@ header nav a:hover{
 .sectionTwo div .section-content .rightside .info .content-link a{
     color: red;
 }
- 
+ header nav a{
+     color: darkgrey;
+ }
