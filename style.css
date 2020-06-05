@@ -104,7 +104,29 @@ header nav a:hover{
  header nav a{
      color: darkgrey;
  }
- sectionSeven div ul li
+ .sectionSeven div ul li
  a h4{
      color: rgb(117, 139, 61);
  }
+ .sectionFour{
+     display: flex;
+     justify-content: center;
+ }
+.sectionFour .leftside{
+    width: 800px;
+}
+.sectionFour .leftside  .button {
+    background-color: red;
+    color: white;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: 50px;
+}
+.sectionFour .leftside .button:visited {
+    color: white !important;
+
+}
+ 
