@@ -129,4 +129,21 @@ header nav a:hover{
     color: white !important;
 
 }
+.sectionFive table tr td img {
+    height: 50px;
+    width: 50px;
+}
+.row-gray{
+    background-color: darkgrey;
+}
+.sectionFive{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+.flexbox{
+  display: flex;  
+  font-size: 10px;
+}
+
  
